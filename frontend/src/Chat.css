@@ -1,0 +1,76 @@
+.chat-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px; /* Increased width */
+  height: 600px; /* Increased height */
+  border: 2px solid #ddd;
+  border-radius: 20px; /* Increased border radius */
+  overflow: hidden;
+  background-color: #fff; /* Changed background color */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Improved box shadow */
+}
+
+.messages {
+  padding: 20px; /* Increased padding */
+  height: 380px; /* Adjusted height */
+  overflow-y: scroll;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 10px; /* Increased margin */
+  border-radius: 12px; /* Adjusted border radius */
+}
+
+.input-field {
+  width: 80%; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.send-button {
+  width: 20%; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-message {
+  background-color: #007bff;
+  color: #fff;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 8px; /* Adjusted border radius */
+  padding: 20px 25px;
+  width: 75%; /* Adjusted width for user message */
+  margin-left: auto; /* Align to the right */
+  margin-right: 25px; /* Add some spacing */
+  text-align: right; /* Align text to the right */
+}
+
+.bot-message {
+  background-color: #f0f0f0;
+  color: #333;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 8px; /* Adjusted border radius */
+  padding: 15px 20px;
+  width: 75%; /* Adjusted width for bot message */
+  margin-right: auto; /* Align to the left */
+  margin-left: 25px; /* Add some spacing */
+}
+
+.chat-title {
+  text-align: center;
+}
+
+
